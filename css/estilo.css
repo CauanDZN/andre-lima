@@ -1,0 +1,147 @@
+﻿*{margin:0; padding:0;}
+body{font-family: arial, verdana, tahoma; font-size:12px; background-image: url(../images/fading_background_17.png); background-repeat: repeat-x;}
+#geral{
+	width:960px;
+	margin:0 auto;
+	border:5px solid #fff;
+	background:#f5f5f5;
+	margin-top:10px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+}
+#topo{
+	height:150px;
+	background:#030;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+#topo h1{
+	text-align:center;
+	padding-top:35px;
+	color:#FFF;
+	font-size:18px;
+	
+	
+}
+#topo h1 a{width: 350px; height: 122px; float: left; margin:-20px 0px 10px 10px; text-indent: -8000px; background-image: url(../images/logo3.png);}
+
+#sessao ul{margin: -20px; padding: 0 30px 0 0; float: right; }
+#sessao ul li {padding: 0px 15px 1px 15px; float: right; display: block; color: #fff; font-weight:oblique;}
+#sessao ul li a{color:#fff;}
+
+#nav{
+	background:#060;
+	height:30px;
+	width:960px;
+	margin-top:4px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+#menu{
+	list-style:none;
+	width:450px;
+	margin:0 auto;	
+}
+
+#menu li{
+	float:left;
+}
+#menu li a{
+	display:block;
+	height:30px;
+	padding:0 15px;
+	line-height:30px;
+	color:#FFF;
+	text-decoration:none;
+	font-size:13px;
+	border-left:1px solid #030;
+	font-weight:bold;
+	
+}
+#menu li a:hover{background:#030}
+#menu li.sbord a{
+	border:0;
+}
+#conteudo{
+	clear:both;
+	min-height:330px;
+}
+
+.colunaUm {
+	
+	float:left;
+	width:25%;
+	height:380px;
+	padding:5px;
+	margin:2px;
+	border:1px solid #FFF;
+	
+}
+.colunaMeio {
+	
+	float:left;
+	width:43%;
+	height:380px;
+	padding:5px;
+	margin:2px;
+	border:1px solid #FFF;
+	
+}
+.colunaDois {
+	
+	float:right;
+	width:25%;
+	height:380px;
+	padding:5px;
+	margin:2px;
+	border:1px solid #FFF;
+	
+}  
+#carregando{
+	width:20px;
+	height:20px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-top:-10px;
+	margin-left:-10px;
+}
+#conteudo h2{
+	font-size:15px;
+	text-align:center;
+	padding:10px 0;
+}
+#conteudo p{padding:5px 20px; line-height:150%;}
+
+
+#conteudo h2.quemsomos,
+#conteudo p.quemsomos{color:#036}
+
+#conteudo h2.produtos,
+#conteudo p.produtos{color:#960}
+
+#conteudo h2.servicos,
+#conteudo p.servicos{color:#900}
+
+#conteudo h2.contato,
+#conteudo p.contato{color:#777}
+
+
+#rodape{
+	clear:both;
+	height:30px;
+	border-top:2px solid #ccc;
+	text-align:center;
+	background:url(../img/bg_footer.jpg); background-repeat: repeat-x;
+	
+}
+#rodape address{
+	margin-top:10px;
+	color:#030;
+	text-align:right;
+	padding:0 5px;
+}
